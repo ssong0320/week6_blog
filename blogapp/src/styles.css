@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #333333;
+    color: white;
+}
+main {
+    padding: 36px;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.blog-section {
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}
+.create {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    text-align: center;
+}
+.create label {
+    display: block;
+    margin-bottom: 5px;
+}
+.create input[type="text"],
+.create input[type="author"],
+.create textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
